@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="inner">
+            <div class="top">
+                <fieldset id="container">
+                    <form name="calculator">
+                        <input id="display" type="text" name="display" readonly>
+
+                        <input class="button digits" type="button" value="7" data-value="7">
+                        <input class="button digits" type="button" value="8" data-value="8">
+                        <input class="button digits" type="button" value="9" data-value="9">
+                        <input class="button mathButtons" type="button" value="+" data-value=" + ">
+                        <br>
+                        <input class="button digits" type="button" value="4" data-value="4">
+                        <input class="button digits" type="button" value="5" data-value="5">
+                        <input class="button digits" type="button" value="6" data-value="6">
+                        <input class="button mathButtons" type="button" value="-" data-value=" - ">
+                        <br>
+                        <input class="button digits" type="button" value="1" data-value="1">
+                        <input class="button digits" type="button" value="2" data-value="2">
+                        <input class="button digits" type="button" value="3" data-value="3">
+                        <input class="button mathButtons" type="button" value="x" data-value=" * ">
+                        <br>
+                        <input id="clearButton" class="button" type="button" value="C">
+                        <input class="button digits" type="button" value="0" data-value="0">
+                        <input class="button mathButtons" type="button" value="=" id="equalsButton">
+                        <input class="button mathButtons" type="button" value="/" data-value=" / ">
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script> 
+</body>
+
+</html>
